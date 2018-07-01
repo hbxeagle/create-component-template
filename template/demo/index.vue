@@ -14,7 +14,9 @@
 import createDemoModule from '../../../examples/create-demo-module'
 import Demo0 from './cases/demo0'
 
-export default createDemoModule('single-component', [Demo0])
+export default {
+  ...createDemoModule('single-component', [Demo0])
+}
 
 </script>
 
